@@ -10,7 +10,13 @@
     margin: 0 auto;
 }
 
+@import 'blocks/titles';
+@import 'blocks/forms';
 @import 'blocks/promo';
 @import 'blocks/header';
 @import 'blocks/buttons';
 @import 'blocks/benefits';
+@import 'blocks/consultation';
+
+
+@import 'base/media';
