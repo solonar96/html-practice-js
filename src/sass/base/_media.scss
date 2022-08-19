@@ -2,6 +2,20 @@
     .container {
         width: 750px;
     }
+    .carousel {
+        &__inner {
+            width: 650px;
+            img {
+                width: 100%;
+            }
+        }
+        .slick-prev {
+            left: -50px;
+        }
+        .slick-next {
+            right: -50px;
+        }
+    }
 }
 
 @media (max-width: 767px) {
@@ -20,6 +34,12 @@
         }
         &__phone {
             font-size: 17px;
+        }
+    }
+    .carousel {
+        padding: 40px 0;
+        &__inner {
+            width: 100%;
         }
     }
 }
@@ -88,6 +108,11 @@
         .feed-form {
             margin: 0 auto;
             margin-top: 36px;
+        }
+    }
+    .carousel {
+        &__inner {
+            width: 90%;
         }
     }
 }
