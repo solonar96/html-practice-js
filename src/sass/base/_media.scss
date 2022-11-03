@@ -3,7 +3,7 @@
         &__info {
             width: 325px;
             height: 200px;
-            padding: 35px 0 35px 0;
+            padding: 35px 0;
         }
         &__addr {
             margin-bottom: 22px;
@@ -39,6 +39,9 @@
     }
     .catalog {
         padding-bottom: 50px;
+        &__tabs {
+            margin-top: 40px;
+        }
         &__content {
             justify-content: center;
             margin-top: 40px;
@@ -93,6 +96,53 @@
         padding: 40px 0;
         &__inner {
             width: 100%;
+        }
+    }
+    .catalog {
+        padding-bottom: 30px;
+        &__tab {
+            width: 30.5%;
+        }
+        &-item {
+            margin-left: 10px;
+            margin-right: 10px;
+            width: 260px;
+            &__list {
+                margin-left: 15px;
+                padding-left: 15px;
+            }
+            &__content {
+                &-active{
+                    margin-left: 10px;
+                }
+            }
+            &__old-price {
+                font-size: 13px;
+            }
+            &__price {
+                font-size: 17px;
+            }
+            &__footer {
+                .button-mini {
+                    width: 120px;
+                }
+            }
+        }
+    }
+    .feedback {
+        &-item {
+            &__wrapper {
+                width: 375px;
+            }
+        }
+    }
+    .footer {
+        height: 300px;
+        &__info {
+            position: static;
+            width: 100%;
+            height: 170px;
+            padding: 20px 0;
         }
     }
 }
@@ -166,6 +216,11 @@
     .carousel {
         &__inner {
             width: 90%;
+        }
+    }
+    .catalog {
+        &-item {
+            width: 300px;
         }
     }
 }
