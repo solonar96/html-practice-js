@@ -1,3 +1,24 @@
+@media (max-width: 1199px) {
+    .footer {
+        &__info {
+            width: 325px;
+            height: 200px;
+            padding: 35px 0 35px 0;
+        }
+        &__addr {
+            margin-bottom: 22px;
+            font-size: 17px;
+            line-height: 17px;
+        }
+        &__phone {
+            margin-bottom: 22px;
+            font-size: 17px;
+            line-height: 17px;
+        }
+
+    }
+}
+
 @media (max-width: 991px) {
     .container {
         width: 750px;
@@ -14,6 +35,38 @@
         }
         .slick-next {
             right: -50px;
+        }
+    }
+    .catalog {
+        padding-bottom: 50px;
+        &__content {
+            justify-content: center;
+            margin-top: 40px;
+        }
+        &-item {
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+    }
+    .feedback{
+        padding-bottom: 40px;
+        &-item {
+            margin-top: 40px;
+            &__wrapper {
+                width: 550px
+            }
+            &__descr {
+                font-size: 15px;
+                line-height: 22px;
+            }
+        }
+    }
+    .footer {
+        height: 400px;
+        &__info {
+            left: auto;
+            transform: none;
+            right: 0;
         }
     }
 }
